@@ -179,6 +179,16 @@ main > section{
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+/* footer section */
+.footer-section{
+    margin-top: 130px;
+}
+.footer-section p{
+    font-size: 1.25rem;
+   text-align: center;
+   background-color: #FFF4E7;
+   padding: 40px;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navber,
@@ -188,13 +198,14 @@ main > section{
         flex-direction: column;
     }
     .teams-img-container,
-    .facts-containe,
+    .facts-container,
     .sponsor-companies{
         grid-template-columns: 1fr;
     }
     .facts-container{
         justify-items: center;
         gap:24px;
+
     }
     .sponsor-companies{
       justify-items: center;  
@@ -206,6 +217,9 @@ main > section{
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    .footer-section p{
+        font-size: 1rem;
     }
 }
 /*medium size device  */
